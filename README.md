@@ -1,3 +1,5 @@
+![SRNlogo](/icons/superresnet_logo2.png)
+
 ## SuperResNET Batch 
 
 This repo holds the SuperResNET batch pipeline using V3.0 of SuperResNET designed by Ismail Khater.
