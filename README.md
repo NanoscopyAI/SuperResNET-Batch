@@ -4,6 +4,21 @@ This repo holds the SuperResNET batch pipeline using V3.0 of SuperResNET designe
 
 Also contains work written by Christian Hallgrimson, Ben Cardoen, & Mona Shahsavari.
 
+For GUI SuperResNET please see: [medicalimageanalysis.com/software/superresnet](https://www.medicalimageanalysis.com/software/superresnet)
+
+### Citation
+If you make use of this work, please cite:
+```
+@Article{KhaterSR2018,
+title={Super Resolution Network Analysis Defines the Molecular Architecture of Caveolae and Caveolin-1 Scaffolds},
+author={Khater, Ismail M. and Meng, Fanrui and Wong, Timothy H. and Nabi, Ivan Robert and Hamarneh, Ghassan},
+journal={Scientific Reports},
+year={2018},
+url={https://doi.org/10.1038/s41598-018-27216-4}
+}
+
+```
+
 ### Usage
 
 The pipeline can be run directly on a single file from the commmand line:
@@ -15,7 +30,7 @@ Xconv Yconv Zconv; quit"
 ```
 
 or within matlab:
-```bash
+```
 pipeline(input_dir, file_name, output_dir, min_X, max_X, min_Y, max_Y, min_Z, max_Z, merge_threshold, alpha_noise, proximity_threshold, kernal_bandwidth, Xconv, Yconv, Zconv);
 ```
 
@@ -42,7 +57,7 @@ matlab -nodesktop -nosplash -r "run(group.m); quit"
 ```
 
 or within matlab by using the run button with the script open or by using the command:
-```bash
+```
 run(group.m)
 ```
 
