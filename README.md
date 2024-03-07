@@ -3,6 +3,7 @@
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/NanoscopyAI/icons/blob/main/SuperResNET/superresnet_logo1.png?raw=true">
   <img alt="" src="https://github.com/NanoscopyAI/icons/blob/main/SuperResNET/superresnet_logo2.png?raw=true">
 </picture>
+
 ## SuperResNET Batch 
 
 This repo holds the SuperResNET batch pipeline using V3.0 of SuperResNET designed by Ismail Khater.
